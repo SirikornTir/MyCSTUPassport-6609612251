@@ -107,3 +107,16 @@
     color: white;
 }
 /* Title end */
+.all{
+    background-image: url("../image/advisor_bg.jpg");
+    background-size: cover;
+    overflow: auto;
+    background-position: center;
+}
+.blog-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.blog-photo {
+    width: 100%;
+}
