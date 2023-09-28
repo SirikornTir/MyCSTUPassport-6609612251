@@ -109,7 +109,7 @@
 /* Advisor end */
 
 /* Img Advisor start*/
-.All{
+.all{
     background-image: url("D:/MyCSTUPassport/image/advisor_bg.jpg");
     background-size: cover;
     overflow: auto;
@@ -120,6 +120,73 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
     width: 200px;
     height: 300px;
+}
+/*Img Advisor end*/
+
+/*name & cv start*/
+.center{
+    text-align: center;
+}
+.name{
+    font-size: 24px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+    color: rgb(165, 146, 186);
+    padding: 10px 0 10px 0;
+}
+.CV{
+    color: rgb(114, 191, 119);
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+/*name & cv end*/
+/*icon contact start*/
+.anotherinfo {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.allcontact{
+    padding-top: 10px;
+}
+.contact{
+    font-size: 20px;
+    color: rgb(165, 146, 186);
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.fa-building{
+    color: whitesmoke;
+    display: flex;
+    padding-top: 10px;
+}
+.build{
+    font-family: 'Kanit', sans-serif;
+}
+.fa-phone{
+    color: whitesmoke;
+    display: flex;
+    padding-top: 5px;
+}
+.phone{
+    font-family: 'Kanit', sans-serif;
+}
+.fa-envelope{
+    color: whitesmoke;
+    display: flex;
+    padding-top: 5px;
+}
+.mail{
+    font-family: 'Kanit', sans-serif;
+}
+/*icon contact end*/
+.research{
+    font-size: 20px;
+    color: rgb(165, 146, 186);
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
