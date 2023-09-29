@@ -136,19 +136,9 @@
     margin-top: 50px;
     margin-left: 110px;
     grid-gap: 10px;
-}
-.blog-photo img{
-    width: 300px;
-}
-.blog-photo02 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 30px;
-    margin-left: 110px;
-    grid-gap: 10px;
     margin-bottom: 60px;
 }
-.blog-photo02 img{
+.blog-photo img{
     width: 300px;
 }
 /*photo zone end*/
