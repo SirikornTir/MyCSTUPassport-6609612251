@@ -176,15 +176,46 @@
                 position: absolute;
             }
             .me{
+                background-size: cover;
                 width: 100%;
                 height: auto;
-                padding: 450px;
-                background-size: cover;
+                padding-top: 450px;
+                padding-left: 0px;
+            }
+            .AM{
+                padding-bottom: 150px;
+                font-size: 24px;
             }
             .all{
                 width: 100%;
-                background-size: cover;
-                
+                justify-content: unset;
+                padding-left: 15px;
+                display: block;
+            }
+            .mypic{
+                padding-top: 25px;
+                float: none;
+            }
+            .info{
+                padding-top: 5px;
+                padding-left: 75px;
+                font-size: 18px;
+            }
+            .allright{
+                margin-top: 550px;
+                margin-right: 0px;
+                margin-left: 0px;
+                margin-bottom: 0px
+            }
+            .Mv{
+                padding-right: 175px;
+                padding-left: 0px;
+                padding-top: 20px;
+            }
+            .Myvideo{
+                padding-right: 125px;
+                padding-top: 0px;
+                padding-bottom: 75px;
             }
         }
         /*Phone end*/
