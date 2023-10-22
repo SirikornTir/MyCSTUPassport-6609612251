@@ -134,7 +134,7 @@
     }
         /* All info end*/
         /*Desktop start*/
-        @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px){
             .col-s-1 {width: 8.33%;}
             .col-s-2 {width: 16.66%;}
             .col-s-3 {width: 25%;}
@@ -150,7 +150,7 @@
         }
         /*Desktop end*/
         /*Tablet start*/
-        @media screen and (min-width: 600px){
+    @media screen and (min-width: 600px){
             .col-s-1 {width: 8.33%;}
             .col-s-2 {width: 16.66%;}
             .col-s-3 {width: 25%;}
@@ -166,18 +166,25 @@
         }
         /*Tablet end*/
         /*Phone start*/
-        @media screen and (min-width: 360px){
-            .col-s-1 {width: 100%;}
-            .col-s-2 {width: 100%;}
-            .col-s-3 {width: 100%;}
-            .col-s-4 {width: 100%;}
-            .col-s-5 {width: 100%;}
-            .col-s-6 {width: 100%;}
-            .col-s-7 {width: 100%;}
-            .col-s-8 {width: 100%;}
-            .col-s-9 {width: 100%;}
-            .col-s-10 {width: 100%;}
-            .col-s-11 {width: 100%;}
-            .col-s-12 {width: 100%;}
+    @media screen and (max-width: 480px){
+            .header{
+                position: absolute;
+            }
+            .sidebar{
+                width: 100%;
+                height: auto;
+                position: absolute;
+            }
+            .me{
+                width: 100%;
+                height: auto;
+                padding: 450px;
+                background-size: cover;
+            }
+            .all{
+                width: 100%;
+                background-size: cover;
+                
+            }
         }
         /*Phone end*/
