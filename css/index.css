@@ -55,11 +55,13 @@
         transition: 0.3 ease;
     }
     .sidebar .submenu{
-        background: #262e6acf;
+        background: rgba(87, 91, 128, 0.918)cf;
     }
     .sidebar .submenu a{
         padding-left: 65px;
         width: 100%;
+        border-bottom: 0.5px solid rgb(88, 85, 115);
+        border-top: 0.5px solid rgb(88, 85, 115);
     }
 /*Menu end*/
 
@@ -134,7 +136,7 @@
     }
         /* All info end*/
         /*Phone start*/
-    @media screen and (max-width: 479px){
+    @media screen and (max-width: 480px){
             .header{
                 position: absolute;
             }
@@ -202,20 +204,27 @@
         }
         /*Phone end*/
         /*tablet start*/
-        @media screen and (max-width: 991px){
+        @media screen and (max-width: 768px) and (min-width:481px){
+            .sidebar{
+                line-height: 20px;
+                width: 25%;
+                font-size: 18px;
+            }
             .me{
+                float: right;
                 background-size: cover;
-                width: 100%;
+                width: 75%;
                 height: auto;
-                padding-top: 450px;
+                padding-top: 20px;
                 padding-left: 0px;
             }
             .AM{
                 padding-bottom: 150px;
-                font-size: 24px;
+                font-size: 22px;
             }
             .all{
-                width: 100%;
+                float: right;
+                width: 75%;
                 justify-content: unset;
                 padding-left: 0px;
                 display: block;
@@ -231,7 +240,7 @@
             .info{
                 padding-top: 5px;
                 padding-left: 0px;
-                font-size: 18px;
+                font-size: 16px;
                 text-align: center;
             }
             .allright{
