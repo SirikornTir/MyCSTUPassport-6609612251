@@ -204,7 +204,7 @@
         }
         /*Phone end*/
         /*tablet start*/
-        @media screen and (max-width: 768px) and (min-width:481px){
+        @media screen and (max-width: 834px) and (min-width:481px){
             .sidebar{
                 line-height: 20px;
                 width: 25%;
@@ -270,3 +270,70 @@
             }
         }
         /*Tablet end*/
+        /*Desktop stat*/
+        @media screen and (min-width:835px){
+            .sidebar{
+                line-height: 20px;
+                width: 25%;
+                font-size: 18px;
+            }
+            .me{
+                float: right;
+                background-size: cover;
+                width: 75%;
+                height: auto;
+                padding-top: 20px;
+                padding-left: 0px;
+            }
+            .AM{
+                padding-bottom: 150px;
+                font-size: 22px;
+            }
+            .all{
+                float: right;
+                width: 75%;
+                justify-content: unset;
+                padding-left: 0px;
+                display: block;
+            }
+            .mypic{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                padding-left: 0px;
+                padding-top: 25px;
+                float: none;
+            }
+            .info{
+                padding-top: 5px;
+                padding-left: 0px;
+                font-size: 16px;
+                text-align: center;
+            }
+            .allright{
+                margin-top: 550px;
+                margin-right: 0px;
+                margin-left: 0px;
+                margin-bottom: 0px
+            }
+            .Mv{
+                font-size: 20px;
+                text-align: center;
+                padding-right: 0px;
+                padding-left: 0px;
+                padding-top: 45px;
+                float: none;
+            }
+            .Myvideo{
+                display: block;
+                align-items: center;
+                padding-right: 0px;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-bottom: 50px;
+                float: none;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        /*Desktop end*/
