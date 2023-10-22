@@ -36,7 +36,7 @@
     font-size: 15px;
     font-family: 'DM Serif Display', serif;
     line-height: 40px;
-    text-align: left;
+    text-align: center;
 }
 .listmenu a{
     text-decoration: none;
@@ -67,7 +67,7 @@
         border-bottom: none;
     }
     .listmenu > ul > li{
-        text-align: center;
+        text-align: left ;
     }
     .listmenu > ul > li > a {
         padding-left: 0px;

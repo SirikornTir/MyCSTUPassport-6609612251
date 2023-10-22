@@ -24,70 +24,23 @@
 /* CSTU & student id end */
 
 /* Menu start*/
-    .listmenu ul{
-        list-style: none;
+    .sidebar{
+        position: fixed;
+        width: 250px;
+        left: 0;
         background-color: #20254d;
-        text-align: center;
-        padding: 0;
-        margin: 0;
-    }
-    .listmenu li{
-        font-size: 15px;
+        box-sizing: border-box;
         font-family: 'DM Serif Display', serif;
-        line-height: 40px;
-        text-align: left;
     }
-    .listmenu a{
-        text-decoration: none;
+    .sidebar .text{
         color: whitesmoke;
-        display: block;
-        padding-left: 15px;
-        border-bottom: none;
-        transition: .3s;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 65px;
+        text-align: center;
+        background: #1a1d3a;
+        letter-spacing: 1px;
     }
-    .listmenu a:hover{
-        background-color: #5e638a;
-    }
-    .listmenu li li{
-        font-size: 14px;
-    }
-    /*style menu start*/
-    @media screen and (min-width: 300px){
-        .listmenu li {
-            width: 450px;
-            border-bottom: none;
-            height: 50px;
-            line-height: 50px;
-            font-size: 18px;
-            display: inline-block;
-            margin-right: -4px;
-        }
-        .listmenu a{
-            border-bottom: none;
-        }
-        .listmenu > ul > li{
-            text-align: center;
-        }
-        .listmenu > ul > li > a {
-            padding-left: 0px;
-        }
-        /*sub menu start*/
-        .listmenu li ul{
-            position: absolute;
-            display: none;
-            width: inherit;
-        }
-        .listmenu li:hover ul{
-            display: block;
-            }
-        .listmenu li ul li{
-            display: block;
-            font-weight: lighter;
-            font-family: 'Kanit', sans-serif;
-        }
-        /*sub menu end*/
-    }
-    /*style menu end*/
 /*Menu end*/
 
 /* About Me start*/
