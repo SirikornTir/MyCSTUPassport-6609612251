@@ -10,6 +10,7 @@
         width: 100%;
         height: 30px;
         background-color: #1C2144 ;
+        position: fixed;
     }
     .title{
         margin-left: 15px;
@@ -25,21 +26,40 @@
 
 /* Menu start*/
     .sidebar{
+        background: #1d2350cf;
+        width: 325px;
+        height: 100%;
         position: fixed;
-        width: 250px;
+        backdrop-filter: blur(15px);
+        top: 30px;
         left: 0;
-        background-color: #20254d;
-        box-sizing: border-box;
-        font-family: 'DM Serif Display', serif;
+        overflow-y: auto;
     }
-    .sidebar .text{
+    .sidebar a{
         color: whitesmoke;
         font-size: 15px;
-        font-weight: bold;
-        line-height: 65px;
-        text-align: center;
-        background: #1a1d3a;
-        letter-spacing: 1px;
+        font-family: 'Kanit', sans-serif;
+        text-decoration: none;
+        display: block;
+        padding: 5px 30px;
+        line-height: 60px;
+    }
+    .sidebar a:hover{
+        background-color: #5e638a;
+        transition: 0.3s ease;
+    }
+    .sidebar a .fa-sort-desc{
+        position: absolute;
+        right: 0;
+        margin: 20px;
+        transition: 0.3 ease;
+    }
+    .sidebar .submenu{
+        background: #262e6acf;
+    }
+    .sidebar .submenu a{
+        padding-left: 65px;
+        width: 100%;
     }
 /*Menu end*/
 
@@ -49,6 +69,7 @@
         height: 400px;
         background-size: cover;
         background-position: center;
+        padding-left: 325px ;
     }
     .AM{
         padding-top: 150px;
@@ -68,6 +89,7 @@
         overflow: auto;
         justify-content: space-between;
         display: flex;
+        padding-left: 325px ;
     }
     .allleft{
         margin-left: 50px;
