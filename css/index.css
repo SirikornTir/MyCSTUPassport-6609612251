@@ -133,40 +133,8 @@
             height: 250px;
     }
         /* All info end*/
-        /*Desktop start*/
-    @media screen and (min-width: 768px){
-            .col-s-1 {width: 8.33%;}
-            .col-s-2 {width: 16.66%;}
-            .col-s-3 {width: 25%;}
-            .col-s-4 {width: 33.33%;}
-            .col-s-5 {width: 41.66%;}
-            .col-s-6 {width: 50%;}
-            .col-s-7 {width: 58.33%;}
-            .col-s-8 {width: 66.66%;}
-            .col-s-9 {width: 75%;}
-            .col-s-10 {width: 83.33%;}
-            .col-s-11 {width: 91.66%;}
-            .col-s-12 {width: 100%;}
-        }
-        /*Desktop end*/
-        /*Tablet start*/
-    @media screen and (min-width: 600px){
-            .col-s-1 {width: 8.33%;}
-            .col-s-2 {width: 16.66%;}
-            .col-s-3 {width: 25%;}
-            .col-s-4 {width: 33.33%;}
-            .col-s-5 {width: 41.66%;}
-            .col-s-6 {width: 50%;}
-            .col-s-7 {width: 58.33%;}
-            .col-s-8 {width: 66.66%;}
-            .col-s-9 {width: 75%;}
-            .col-s-10 {width: 83.33%;}
-            .col-s-11 {width: 91.66%;}
-            .col-s-12 {width: 100%;}
-        }
-        /*Tablet end*/
         /*Phone start*/
-    @media screen and (max-width: 480px){
+    @media screen and (max-width: 479px){
             .header{
                 position: absolute;
             }
@@ -189,17 +157,22 @@
             .all{
                 width: 100%;
                 justify-content: unset;
-                padding-left: 15px;
+                padding-left: 0px;
                 display: block;
             }
             .mypic{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                padding-left: 0px;
                 padding-top: 25px;
                 float: none;
             }
             .info{
                 padding-top: 5px;
-                padding-left: 75px;
+                padding-left: 0px;
                 font-size: 18px;
+                text-align: center;
             }
             .allright{
                 margin-top: 550px;
@@ -208,14 +181,83 @@
                 margin-bottom: 0px
             }
             .Mv{
-                padding-right: 175px;
+                font-size: 20px;
+                text-align: center;
+                padding-right: 0px;
                 padding-left: 0px;
-                padding-top: 20px;
+                padding-top: 45px;
+                float: none;
             }
             .Myvideo{
-                padding-right: 125px;
+                display: block;
+                align-items: center;
+                padding-right: 0px;
+                padding-left: 0px;
                 padding-top: 0px;
-                padding-bottom: 75px;
+                padding-bottom: 50px;
+                float: none;
+                margin-left: auto;
+                margin-right: auto;
             }
         }
         /*Phone end*/
+        /*tablet start*/
+        @media screen and (max-width: 991px){
+            .me{
+                background-size: cover;
+                width: 100%;
+                height: auto;
+                padding-top: 450px;
+                padding-left: 0px;
+            }
+            .AM{
+                padding-bottom: 150px;
+                font-size: 24px;
+            }
+            .all{
+                width: 100%;
+                justify-content: unset;
+                padding-left: 0px;
+                display: block;
+            }
+            .mypic{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                padding-left: 0px;
+                padding-top: 25px;
+                float: none;
+            }
+            .info{
+                padding-top: 5px;
+                padding-left: 0px;
+                font-size: 18px;
+                text-align: center;
+            }
+            .allright{
+                margin-top: 550px;
+                margin-right: 0px;
+                margin-left: 0px;
+                margin-bottom: 0px
+            }
+            .Mv{
+                font-size: 20px;
+                text-align: center;
+                padding-right: 0px;
+                padding-left: 0px;
+                padding-top: 45px;
+                float: none;
+            }
+            .Myvideo{
+                display: block;
+                align-items: center;
+                padding-right: 0px;
+                padding-left: 0px;
+                padding-top: 0px;
+                padding-bottom: 50px;
+                float: none;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        /*Tablet end*/
